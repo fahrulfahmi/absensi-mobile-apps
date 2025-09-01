@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "123456", 
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "userId": 1,
+      "type": "checkin",
+      "time": "2025-09-02T07:30:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "type": "checkout",
+      "time": "2025-09-02T16:30:00Z"
+    }
+  ]
+}
